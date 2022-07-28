@@ -43,11 +43,11 @@ public class Conta {
     @Override
     public String toString() {
         return "Conta{" +
-                "Número da Conta =" + numeroConta +
-                "nome =" + this.pessoa.getNome() +
+                "Número da Conta = " + numeroConta +
+                "Nome = " + this.pessoa.getNome() +
                 "CPF = " + this.pessoa.getCpf() +
-                "Email =" + this.pessoa.getEmail() +
-                "Saldo =" + Utils.doubleToString(this.getSaldo()) +
+                "Email = " + this.pessoa.getEmail() +
+                "Saldo = " + Utils.doubleToString(this.getSaldo()) +
                 '}';
     }
     //Método depositar

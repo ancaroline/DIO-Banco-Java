@@ -44,7 +44,7 @@ public class Cliente {
         return "Cliente{" +
                 "Nome ='" + nome + '\'' +
                 ", CPF ='" + cpf + '\'' +
-                ", Email='" + email + '\'' +
+                ", Email ='" + email + '\'' +
                 '}';
     }
 }

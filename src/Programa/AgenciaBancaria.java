@@ -55,13 +55,13 @@ public class AgenciaBancaria {
     }
     //Método criar conta
     public static void criarConta() {
-        System.out.println("/nNome: ");
+        System.out.println("Nome: ");
         String nome = input.next();
 
-        System.out.println("/nCPF: ");
+        System.out.println("CPF: ");
         String cpf = input.next();
 
-        System.out.println("/nEmail: ");
+        System.out.println("Email: ");
         String email = input.next();
 
         Cliente pessoa = new Cliente(nome, cpf, email);
